@@ -207,9 +207,9 @@ Ok i think you got bored but here is some thrilling actions happened at the end
 
 ## Hackathon workflow:
 the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission]() but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
-our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it.
+our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it. ![final leaderBoard](final.jpeg)
 
-## wednesday surprise:
+## Wensday surprise:
 we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail]() after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack just because we expressed our opinions.
 
 ## plagiarism rules:
@@ -218,7 +218,9 @@ they didn't say anything about plagiarism in the documntation or in the brief vi
     - the total score of the leaderboard submission and its details (which was the first time on my life to hear about this invented rule).
     - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions was executed locally).
 ## Stanford MOSS tool checking:
-To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got []
+To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??)![]()
+## Slack Kicking off:
+that is the post for why we were kicked off, and that,s make us wonder "what is success for them??" is that making a great show for openning and closing, or taking awesome photos and presenting a weak content in the challenge itself
 ## conclusion:
 As a summary we were doing a great perfomance at this hackathon and giving it a lot of efforts but as a result we got disqualified just because we got too close scores without any strong evidence and without a any reasonable clarification, Thanks HackTrick for that awful experience.
 ## Shout Out:

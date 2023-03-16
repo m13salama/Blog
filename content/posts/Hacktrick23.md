@@ -2,6 +2,14 @@
 title: "Hacktrick23"
 date: 2023-03-16T20:44:42+02:00
 ---
+
+# Table of Contents
+
+- [Introduction](#section-1)
+- [](#section-2)
+- [](#section-3)
+
+
 # Welcome...
 That's our short journey with Hacktrick this year be ready for some useful information and a lot of drama.
 First what is hacktrick??  
@@ -23,7 +31,7 @@ def captcha_solver(question):
     result = reader.readtext(np.array(question, dtype=np.uint8))
     return result[0][1]
 ```
-### respectively approach:
+### respectively approach: <a id="section-1"></a>
 ```
 def captcha_solver(question):
     img_bytes = BytesIO()
@@ -187,5 +195,24 @@ def pcap_solver(question):
     return solution
 ```
 # Maze Solver...
-As i mentioned before the maze was 10*10 you need to enter and rescue as many children as you can then exit in least number of steps.
+As i mentioned before the maze was 10*10 you need to enter and rescue as many children as you can then exit in least number of steps and we have 5 submissions.
+we worked on a combining algorithm between RL and heuristics and managed to build 2 models working very well and got 1st place with them in 2 submissions and the end of the hackathon we got 6th place, our friends on the other hand worked with DFS with heuristics and did a great job too and got 5th place at the end.
+[to see the full code of the two teams here.](...........................................)  
+To be there was a big problem with the maze that it didn't change through the  submissions so it was easy for all the teams to follow up the top teams on the leaderboard and inspire the solution from their results.
+and that's what happened in the end when the teams realized that rescuing 2 children only would give you a great score so we began to make our model more greedy and managed to rescue 2 children in the minimum steps(50 steps) which is the optimal greedy solution and our friends realized that trick too and managed to get that optimal greedy solution.
+it was great work from both of us and we enjoyed optimaizing our code and being greedy.
+
+# THE DRAMA...
+Ok i think you got bored but here is some thrilling actions happened at the end
+
+## Hackathon workflow:
+the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission]() but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children.
+our friends on the other side 
+finally they made a remontada on us and got 5th place but they deserved it.
+
+## Wensday surprise:
+we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail]() after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack 
+
+## pliagrism rules:
+
 

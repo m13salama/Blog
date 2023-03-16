@@ -1,15 +1,16 @@
 ---
 title: "Hacktrick23"
 date: 2023-03-16T20:44:42+02:00
-tags : ["Welcome", "Riddles", "Maze Solver", "THE DRAMA"]
 ---
+<!-- toc -->
 
 # Table of Contents
 
-- [Welcome](#Welcome)
-- [Riddles](#Riddles)
-- [Maze Solver](#Maze-Solver)
-- [THE DRAMA](#THE-DRAMA)
+- [Welcome](#welcome)
+- [Riddles](#riddles)
+- [Maze Solver](#maze-solver)
+- [THE DRAMA](#the-drama)
+
 
 # Welcome
 That's our short journey with Hacktrick this year be ready for some useful information and a lot of drama.

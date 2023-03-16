@@ -2,9 +2,9 @@
 title: "Hacktrick23"
 date: 2023-03-16T20:44:42+02:00
 ---
-<a href="#captcha">Captcha</a>
 
 # Table of Contents
+<!-- toc -->
 <nav class="toc">
 <ul>
     <li><a href="#welcome">Welcome</a>
@@ -17,11 +17,13 @@ date: 2023-03-16T20:44:42+02:00
         </ul>
     <li><a href="#maze-solver">Maze Solver</a></li>
     <li><a href="#the-drama">THE DRAMA</a></li>
-    <li><a href="#hackathon-workflow">hackathon workflow</a></li>
-    <li><a href="#wednsday-surprise">Wednesday surprise</a></li>
-    <li><a href="#plagiarism-rules">Maze Solver</a></li>
-    <li><a href="#stanford-moss-tool-checking">Stanford Moss Tool Checking</a></li>
-    <li><a href="#slack-kicking-off">slack kicking off</a></li>
+    <ul>
+        <li><a href="#hackathon-workflow">hackathon workflow</a></li>
+        <li><a href="#wednsday-surprise">Wednesday surprise</a></li>
+        <li><a href="#plagiarism-rules">Maze Solver</a></li>
+        <li><a href="#stanford-moss-tool-checking">Stanford Moss Tool Checking</a></li>
+        <li><a href="#slack-kicking-off">slack kicking off</a></li>
+    </ul>
     <li><a href="#conclusion">conclusion</a></li>
     <li><a href="#shout-out">Shout out</a></li>
     </li>

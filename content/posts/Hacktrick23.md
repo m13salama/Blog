@@ -2,13 +2,13 @@
 title: "Hacktrick23"
 date: 2023-03-16T20:44:42+02:00
 ---
-
+<a href="#captcha">Captcha</a>
 
 # Table of Contents
 <nav class="toc">
 <ul>
     <li><a href="#welcome">Welcome</a>
-    <li><a href="#riddles">Riddles</a></li>
+    <li><a href="#riddles">Riddles</a></li>        
         <ul>
           <li><a href="#captcha">Captcha</a></li>
           <li><a href="#cipher">Cipher</a></li>
@@ -18,7 +18,7 @@ date: 2023-03-16T20:44:42+02:00
     <li><a href="#maze-solver">Maze Solver</a></li>
     <li><a href="#the-drama">THE DRAMA</a></li>
     <li><a href="#hackathon-workflow">hackathon workflow</a></li>
-    <li><a href="#wednsday-surprise">Wednesday</a></li>
+    <li><a href="#wednsday-surprise">Wednesday surprise</a></li>
     <li><a href="#plagiarism-rules">Maze Solver</a></li>
     <li><a href="#stanford-moss-tool-checking">Stanford Moss Tool Checking</a></li>
     <li><a href="#slack-kicking-off">slack kicking off</a></li>
@@ -239,9 +239,7 @@ we all slept on tuesday having no ideas except of planning to the next phase and
 they didn't say anything about plagiarism in the documntation or in the brief video except this phrase "any plagiarism will be detected and penalized" but let us see what they have told us to shut us up:
 - plagiarism is based on multiple aspects:
     - the total score of the leaderboard submission and its details (which was the first time on my life to hear about this invented rule).
-    - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions were executed locally).
-the tie breaker actually was by the first submission so saying that plagiarism is based on these silly rules doesn't make sense.
-![The rules](pliagrism.jpeg)
+    - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions were executed locally).![The rules](pliagrism.jpeg)
 ## Stanford MOSS tool checking:
 To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??)<img src="https://github.com/m13salama/blog/blob/main/content/posts/MOss.jpeg" alt="MOSS checking" class="my-image">
 <style>

@@ -1,6 +1,7 @@
 ---
 title: "Hacktrick23"
 date: 2023-03-16T20:44:42+02:00
+tags = ["Welcome", "Riddles", "Maze Solver", "THE DRAMA"]
 ---
 
 # Table of Contents

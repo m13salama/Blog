@@ -4,17 +4,12 @@ date: 2023-03-16T20:44:42+02:00
 ---
 
 
-
 # Table of Contents
+
 <ul>
     <li><a href="#welcome">Welcome</a>
     <li><a href="#riddles">Riddles</a></li>
-        <ul>
-          <li><a href="#captcha">Captcha</a></li>
-          <li><a href="#cipher">Cipher</a></li>
-          <li><a href="#server">Server</a></li>
-          <li><a href="#pcap">pcap</a></li>
-        </ul>
+        
     <li><a href="#maze-solver">Maze Solver</a></li>
     <li><a href="#the-drama">THE DRAMA</a></li>
     </li>

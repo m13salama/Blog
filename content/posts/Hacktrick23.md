@@ -37,7 +37,7 @@ def captcha_solver(question):
 ## Cipher
 You are given message which was altered after it was ciphered and you need to return the original message.  
 if you just noticed the it was altered just by encoding it base64 you are done with it, after decoding it it gives you the nessage in binary with the shift and you can solve it with normal Caesar cipher.
-## code of duty approach:
+### code of duty approach:
 we have a class to implement addpadding, getMessage functions
 ```
 def cipher_solver(question):
@@ -48,7 +48,7 @@ def cipher_solver(question):
     shift = int(shift, 2)
     return getMessage(msg, shift)
 ```
-## respectively approach:
+### respectively approach:
 ```
 def cipher_solver(question):
     padding = 4 - len(question) % 4
@@ -79,7 +79,7 @@ def cipher_solver(question):
 ## Server
 Ok honstly that problem took from us a lot much than it deserve.
 you are given a jwt token which was signed with a private key and you to verify it you must decode that sign by a public key, the trick was that the public key used for vervication wwas send in he header of the token, so the solution wan simply through out this public key change what you need in the token and sign it with any private key and send with the header your public key.
-## code of duty approach:
+### code of duty approach:
 the public and privates keys were generated previously and loaded from a file.
 ```
 def server_solver(question):
@@ -91,7 +91,7 @@ def server_solver(question):
     decoded_payload['admin'] = "true"
     jwt_token = jwt.encode(decoded_payload, private_key, algorithm="RS256", headers=decoded_header)
 ```
-## respectively approach:
+### respectively approach:
 ```
 def server_solver(question):
     payload = jwt.decode(question, options={"verify_signature": False}, algorithms=["RS256"])
@@ -129,9 +129,63 @@ def server_solver(question):
 giving a pcap file, and you know that the server was DNS exfilterated from a specific IP you need to get what information was leaked.
 just filter the packets with the IP again decode the subdomains with base64 and that's it.
 ```
+def pcap_solver(question):
+    sol = {}
+    # Decode the Base64-encoded pcap file
+    pcap_data = base64.b64decode(question)
+    # Parse the packets using scapy
+    packets = rdpcap(BytesIO(pcap_data))
     dns_packets = filter(lambda pkt: DNS in pkt and pkt[IP].dst == '188.68.45.12', packets)
+    for pkt in dns_packets:
+        query = pkt[DNSQR].qname.decode()
+        splited = query.split(".")
+        if len(splited[0]) % 4 != 0:
+            padding_length = 4 - (len(splited[0]) % 4)
+            splited[0] += "=" * padding_length
+        if len(splited[1]) % 4 != 0:
+            padding_length = 4 - (len(splited[1]) % 4)
+            splited[1] += "=" * padding_length
+        try:
+            # Decode the base64 string to bytes
+            num = base64.b64decode(splited[0])
+            content = base64.b64decode(splited[1])
+            num_str = num.decode('ascii')
+            content_str = content.decode('ascii')
+            sol[num_str] = content_str
+        except:
+            print("error")
+
+    secret = ""
+    for key in range(1, len(sol)+1):
+        secret += sol[str(key)]
+    return(secret)
     
 ```
-## respectively approach:
-
+### respectively approach:
+```
+def pcap_solver(question):
+    pcap_data = base64.b64decode(question)
+    packets = rdpcap(io.BytesIO(pcap_data))
+    data = {}
+    for packet in packets:
+        if DNSQR in packet and IP in packet and packet[IP].src == '188.68.45.12':
+            dns_query_name = packet[DNSQR].qname.decode('utf-8')
+            num = dns_query_name.find('.')
+            rank_base64 = dns_query_name[:num]
+            padding = 4 - len(rank_base64) % 4
+            rank_base64 += "=" * padding
+            first = base64.b64decode(rank_base64).decode('utf-8')
+            cipherbase64 = dns_query_name[num + 1:dns_query_name.find('.', num + 1)]
+            padding = 4 - len(cipherbase64) % 4
+            cipherbase64 += "=" * padding
+            second = base64.b64decode(cipherbase64).decode('utf-8')
+            data[first] = second
+    data = dict(sorted(data.items()))
+    solution = ""
+    for i in data:
+        solution += data[i]
+    return solution
+```
 # Maze Solver...
+As i mentioned before the maze was 10*10 you need to enter and rescue as many children as you can then exit in least number of steps.
+

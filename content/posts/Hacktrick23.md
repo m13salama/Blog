@@ -136,6 +136,7 @@ def server_solver(question):
 ## PCAP
 giving a pcap file, and you know that the server was DNS exfilterated from a specific IP you need to get what information was leaked.
 just filter the packets with the IP again decode the subdomains with base64 and that's it.
+### code of duty approach:
 ```py
 def pcap_solver(question):
     sol = {}
@@ -218,7 +219,7 @@ they didn't say anything about plagiarism in the documntation or in the brief vi
     - the total score of the leaderboard submission and its details (which was the first time on my life to hear about this invented rule).
     - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions were executed locally).![The rules](pliagrism.jpeg)
 ## Stanford MOSS tool checking:
-To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??)![moss checking]([MOss.jpeg](https://github.com/m13salama/blog/blob/main/content/posts/MOss.jpeg))
+To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??)![moss checking](https://github.com/m13salama/blog/blob/main/content/posts/MOss.jpeg)
 ## Slack Kicking off:
 that is the post for why we were kicked off, and that,s make us wonder "what is success for them??" is that making a great show for openning and closing, or taking awesome photos and presenting a weak content in the challenge itself![the post](slack.jpeg)
 ## conclusion:

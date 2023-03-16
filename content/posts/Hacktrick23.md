@@ -2,14 +2,19 @@
 title: "Hacktrick23"
 date: 2023-03-16T20:44:42+02:00
 ---
-<!-- toc -->
+
+
+
 
 # Table of Contents
+<ul>
+    <li><a href="#welcome">Welcome</a>
+    <li><a href="#riddles">Riddles</a></li>
+    <li><a href="#maze-solver">Maze Solver</a></li>
+    <li><a href="#the-drama">THE DRAMA</a></li>
+    </li>
+</ul>
 
-- [Welcome](#welcome)
-- [Riddles](#riddles)
-- [Maze Solver](#maze-solver)
-- [THE DRAMA](#the-drama)
 
 
 # Welcome

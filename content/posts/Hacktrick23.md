@@ -15,7 +15,7 @@ date: 2023-03-16T20:44:42+02:00
 - [Maze Solver](#maze-solver)
 - [THE DRAMA](#the-drama)
 - - [Hackathon workflow](#hackathon-workflow)
-- - [Wednesday surprise](#wednesday-surprise)
+- - [Wednesday surprise](#wednsday-surprise)
 - - [plagiarism rules](#plagiarism-rules)
 - - [Standford moss tool checking](#stanford-moss-tool-checking)
 - - [Slack kicking off](#slack-kicking-off)

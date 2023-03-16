@@ -4,31 +4,13 @@ date: 2023-03-16T20:44:42+02:00
 ---
 
 # Table of Contents
-<nav class="toc">
-  <ul>
-    <li><a href="#welcome">Welcome</a></li>
-    <li><a href="#riddles">Riddles</a>
-      <ul>
-        <li><a href="#captcha">Captcha</a></li>
-        <li><a href="#cipher">Cipher</a></li>
-        <li><a href="#server">Server</a></li>
-        <li><a href="#pcap">pcap</a></li>
-      </ul>
-    </li>
+<ul>
+    <li><a href="#welcome">Welcome</a>
+    <li><a href="#riddles">Riddles</a></li>
     <li><a href="#maze-solver">Maze Solver</a></li>
-    <li><a href="#the-drama">THE DRAMA</a>
-      <ul>
-        <li><a href="#hackathon-workflow">hackathon workflow</a></li>
-        <li><a href="#wednsday-surprise">Wednesday surprise</a></li>
-        <li><a href="#plagiarism-rules">Plagiarism rules</a></li>
-        <li><a href="#stanford-moss-tool-checking">Stanford Moss Tool Checking</a></li>
-        <li><a href="#slack-kicking-off">slack kicking off</a></li>
-      </ul>
+    <li><a href="#the-drama">THE DRAMA</a></li>
     </li>
-    <li><a href="#conclusion">Conclusion</a></li>
-    <li><a href="#shout-out">Shout out</a></li>
-  </ul>
-</nav>
+</ul>
 
 
 

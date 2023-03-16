@@ -206,13 +206,17 @@ it was great work from both of us and we enjoyed optimaizing our code and being 
 Ok i think you got bored but here is some thrilling actions happened at the end
 
 ## Hackathon workflow:
-the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission]() but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children.
-our friends on the other side 
-finally they made a remontada on us and got 5th place but they deserved it.
+the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission]() but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
+our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it.
 
 ## Wensday surprise:
-we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail]() after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack 
+we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail]() after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack just because we expressed our opinions.
 
 ## pliagrism rules:
 
-
+## Stanford MOSS tool checking:
+To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got []
+## conclusion:
+As a summary we were doing a great perfomance at this hackathon and giving it a lot of efforts but as a result we got disqualified just because we got too close scores without any strong evidence and without a any reasonable clarification, Thanks HackTrick for that awful experience.
+## Shout Out:
+Thanks for all my team members [mohamed aiad](), [mohamed mostafa](), [yousef ahmed](), [michael samir]() and [ahmed abdallah](), and thanks for all my friends from **"RESPECTIVELY"** [Abd-elrahman Bahaa](), [Abd-elrahman El-sayed](), [Ahmed Adel](), [Yousef bazina](), [Omar Metmawwah](), [Mohamed Kotb]() I am really so proud of our work and what we have achieved regardless the endings and I am really happy of of supporting each others we are much more than a family not just compititors or friends.

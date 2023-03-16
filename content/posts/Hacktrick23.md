@@ -17,6 +17,13 @@ date: 2023-03-16T20:44:42+02:00
         </ul>
     <li><a href="#maze-solver">Maze Solver</a></li>
     <li><a href="#the-drama">THE DRAMA</a></li>
+    <li><a href="#hackathon-workflow">hackathon workflow</a></li>
+    <li><a href="#wednsday-surprise">Wednesday</a></li>
+    <li><a href="#plagiarism-rules">Maze Solver</a></li>
+    <li><a href="#stanford-moss-tool-checking">Stanford Moss Tool Checking</a></li>
+    <li><a href="#slack-kicking-off">slack kicking off</a></li>
+    <li><a href="#conclusion">conclusion</a></li>
+    <li><a href="#shout-out">Shout out</a></li>
     </li>
 </ul>
 </nav>
@@ -225,7 +232,7 @@ Ok, I think you got bored but here is some thrilling actions happened at the end
 the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission](first.png) but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
 our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it. ![final leaderBoard](final.jpeg)
 
-## Wensday surprise:
+## Wednsday surprise:
 we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail](mail.jpeg) after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack just because we expressed our opinions.
 
 ## plagiarism rules:

@@ -8,7 +8,7 @@ date: 2023-03-16T20:44:42+02:00
 - [Welcome](#Welcome)
 - [Riddles](#Riddles)
 - [Maze Solver](#Maze-Solver)
-
+- [THE DRAMA](#THE-DRAMA)
 
 # Welcome
 That's our short journey with Hacktrick this year be ready for some useful information and a lot of drama.
@@ -25,14 +25,14 @@ in the next few lines i will show snippets of code for out team "code of duty" a
 You are given an amazon captcha in the form of 2d list and the target is to return the text inside it.  
 solving it literrally took from us 2 lines of code using easyOCR open library which depends on pytorch an easier library was amazon captcha and it needs 2 lines of code too.
 ### code of duty approach:
-```
+```py
 def captcha_solver(question):
     reader = easyocr.Reader(['en'])
     result = reader.readtext(np.array(question, dtype=np.uint8))
     return result[0][1]
 ```
 ### respectively approach: <a id="section-1"></a>
-```
+```py
 def captcha_solver(question):
     img_bytes = BytesIO()
     img = Image.fromarray(np.array(question).astype('uint8'))
@@ -47,7 +47,7 @@ You are given message which was altered after it was ciphered and you need to re
 if you just noticed the it was altered just by encoding it base64 you are done with it, after decoding it it gives you the nessage in binary with the shift and you can solve it with normal Caesar cipher.
 ### code of duty approach:
 we have a class to implement addpadding, getMessage functions
-```
+```py
 def cipher_solver(question):
     text = addpadding(question)
     binary = base64.decodebytes(text)
@@ -57,7 +57,7 @@ def cipher_solver(question):
     return getMessage(msg, shift)
 ```
 ### respectively approach:
-```
+```py
 def cipher_solver(question):
     padding = 4 - len(question) % 4
     question += "=" * padding
@@ -89,7 +89,7 @@ Ok honstly that problem took from us a lot much than it deserve.
 you are given a jwt token which was signed with a private key and you to verify it you must decode that sign by a public key, the trick was that the public key used for vervication wwas send in he header of the token, so the solution wan simply through out this public key change what you need in the token and sign it with any private key and send with the header your public key.
 ### code of duty approach:
 the public and privates keys were generated previously and loaded from a file.
-```
+```py
 def server_solver(question):
     decoded_payload = jwt.decode(question, options={"verify_signature": False})
     decoded_header = jwt.get_unverified_header(question)
@@ -100,7 +100,7 @@ def server_solver(question):
     jwt_token = jwt.encode(decoded_payload, private_key, algorithm="RS256", headers=decoded_header)
 ```
 ### respectively approach:
-```
+```py
 def server_solver(question):
     payload = jwt.decode(question, options={"verify_signature": False}, algorithms=["RS256"])
     payload['admin'] = "true"
@@ -136,7 +136,7 @@ def server_solver(question):
 ## PCAP
 giving a pcap file, and you know that the server was DNS exfilterated from a specific IP you need to get what information was leaked.
 just filter the packets with the IP again decode the subdomains with base64 and that's it.
-```
+```py
 def pcap_solver(question):
     sol = {}
     # Decode the Base64-encoded pcap file
@@ -170,7 +170,7 @@ def pcap_solver(question):
     
 ```
 ### respectively approach:
-```
+```py
 def pcap_solver(question):
     pcap_data = base64.b64decode(question)
     packets = rdpcap(io.BytesIO(pcap_data))
@@ -202,8 +202,8 @@ To be there was a big problem with the maze that it didn't change through the  s
 and that's what happened in the end when the teams realized that rescuing 2 children only would give you a great score so we began to make our model more greedy and managed to rescue 2 children in the minimum steps(50 steps) which is the optimal greedy solution and our friends realized that trick too and managed to get that optimal greedy solution.
 it was great work from both of us and we enjoyed optimaizing our code and being greedy.
 
-# THE DRAMA...
-Ok i think you got bored but here is some thrilling actions happened at the end
+# THE DRAMA
+Ok, I think you got bored but here is some thrilling actions happened at the end
 
 ## Hackathon workflow:
 the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission]() but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
@@ -216,7 +216,7 @@ we all slept on tuesday having no ideas except of planning to the next phase and
 they didn't say anything about plagiarism in the documntation or in the brief video except this phrase "any plagiarism will be detected and penalized" but let us see what they have told us to shut us up:
 - plagiarism is based on multiple aspects:
     - the total score of the leaderboard submission and its details (which was the first time on my life to hear about this invented rule).
-    - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions was executed locally).
+    - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions were executed locally).
 ## Stanford MOSS tool checking:
 To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??)![]()
 ## Slack Kicking off:

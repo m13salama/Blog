@@ -2,3 +2,5 @@ baseURL = 'https://m13salama.github.io/blog/'
 languageCode = 'en-us'
 title = 'My Thoughts'
 theme = 'paper'
+[taxonomies]
+tag = "tags"

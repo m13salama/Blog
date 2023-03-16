@@ -5,12 +5,12 @@ date: 2023-03-16T20:44:42+02:00
 
 # Table of Contents
 
-- [Introduction](#section-1)
-- [](#section-2)
-- [](#section-3)
+- [Welcome](#Welcome)
+- [Riddles](#Riddles)
+- [Maze Solver](#Maze-Solver)
 
 
-# Welcome...
+# Welcome
 That's our short journey with Hacktrick this year be ready for some useful information and a lot of drama.
 First what is hacktrick??  
 Hacktrick is a hackathon organized by Dell that took place in Egypt. The hackathon aimed to bring together young innovators and developers to work on real-world challenges and create innovative solutions using technology.  
@@ -18,7 +18,7 @@ This year the hackathon was about AI, cybercecurity and optimization, the proble
 So intintuitively your aim was to rescue the largest number of children in the least number of steps.
 You can make many approaches for this problem like RL and Informed search, we will talk about our approach later.  
 [for the official documentation here.](https://github.com/HackTrick23/HackTrick23)
-# Riddles...
+# Riddles
 Let's talk about the riddles firstly, there was 4 types of riddles each has a different weight (captcha=10, cipher=20, server=30, PCAP=40) To be honest the riddles difficulity level was disappointing they mostly depended on if you know base64 encoding or not, at our preperation for the hackathon we expected more than that.  
 in the next few lines i will show snippets of code for out team "code of duty" and our friends team "respectively" you will know the reason for that in the DRAMA part stay tuned.  
 ## Captcha
@@ -194,7 +194,7 @@ def pcap_solver(question):
         solution += data[i]
     return solution
 ```
-# Maze Solver...
+# Maze Solver
 As i mentioned before the maze was 10*10 you need to enter and rescue as many children as you can then exit in least number of steps and we have 5 submissions.
 we worked on a combining algorithm between RL and heuristics and managed to build 2 models working very well and got 1st place with them in 2 submissions and the end of the hackathon we got 6th place, our friends on the other hand worked with DFS with heuristics and did a great job too and got 5th place at the end.
 [to see the full code of the two teams here.](...........................................)  
@@ -209,11 +209,14 @@ Ok i think you got bored but here is some thrilling actions happened at the end
 the hackathon openning was at friday(10th march) it was a nice day and very delicious food(the most thing i enjoyed), the hackathon is officially began at the oppening we didn,t do much of work on friday and saturday but from sunday we worked very hard and made our first submit on tuesday at 6 am before our friends we didn't get too much score (7) but it was just a trial our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission]() but we didn't keep it for long then we worked on some optimization(literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
 our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it.
 
-## Wensday surprise:
+## wednesday surprise:
 we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail]() after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack just because we expressed our opinions.
 
-## pliagrism rules:
-
+## plagiarism rules:
+they didn't say anything about plagiarism in the documntation or in the brief video except this phrase "any plagiarism will be detected and penalized" but let us see what they have told us to shut us up:
+- plagiarism is based on multiple aspects:
+    - the total score of the leaderboard submission and its details (which was the first time on my life to hear about this invented rule).
+    - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions was executed locally).
 ## Stanford MOSS tool checking:
 To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got []
 ## conclusion:

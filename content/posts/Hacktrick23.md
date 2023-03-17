@@ -241,7 +241,7 @@ To make sure that we didn't make any paliagrism we checked the two codes by ours
 }
 </style>
 ## Slack Kicking off:
-that is the post for why we were kicked off, and that,s make us wonder "what is success for them??" is that making a great show for openning and closing, or taking awesome photos and presenting a weak content in the challenge itself![the post](slack.jpeg)
+that is the post for why we were kicked off, and that,s make us wonder "what is success for them??" is that making a great show for openning and closing, or taking awesome photos and presenting a weak content in the challenge itself![the post](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/slack.jpeg)
 ## conclusion:
 As a summary we were doing a great perfomance at this hackathon and giving it a lot of efforts but as a result we got disqualified just because we got too close scores without any strong evidence and without a any reasonable clarification, Thanks HackTrick for that awful experience.
 ## Shout Out:

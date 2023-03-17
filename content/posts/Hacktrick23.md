@@ -8,17 +8,17 @@ date: 2023-03-16T20:44:42+02:00
 # Table of Contents
 - [Welcome](#welcome)
 - [Riddles](#riddles)
-- - [Captcha](#captcha)
-- - [Cipher](#cipher)
-- - [Server](#server)
-- - [pcap](#pcap)
+  - [Captcha](#captcha)
+  - [Cipher](#cipher)
+  - [Server](#server)
+  - [pcap](#pcap)
 - [Maze Solver](#maze-solver)
 - [THE DRAMA](#the-drama)
-- - [Hackathon workflow](#hackathon-workflow)
-- - [Wednesday surprise](#wednsday-surprise)
-- - [plagiarism rules](#plagiarism-rules)
-- - [Standford moss tool checking](#stanford-moss-tool-checking)
-- - [Slack kicking off](#slack-kicking-off)
+  - [Hackathon workflow](#hackathon-workflow)
+  - [Wednesday surprise](#Wednesday-surprise)
+  - [plagiarism rules](#plagiarism-rules)
+  - [Standford moss tool checking](#stanford-moss-tool-checking)
+  - [Slack kicking off](#slack-kicking-off)
 - [Conclusion](#conclusion)
 - [Shout out](#shout-out)
 
@@ -226,7 +226,7 @@ Ok, I think you got bored but here is some thrilling actions happened in the end
 the hackathon openning was on Friday 10th March. It was a nice day. Very delicious food (the most thing i enjoyed). The hackathon has officially begun at the opening. we didn't do much of work on Friday and Saturday. We began woking starting from Sunday. We worked very hard and made our first submission on Tuesday at 6 AM before our friends. We didn't get much score (7) but it was just a trial. Our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/first.png) but we didn't keep it for long then we worked on some optimization (literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
 our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it. ![final leaderBoard](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/final.jpeg)
 
-## Wednsday surprise:
+## Wednesday surprise:
 we all slept on Tuesday having no ideas except of planning the next phase and reserving train tickets from Alexandria to Cairo to attend the closing but, we, the 2 teams, got a rejection mail with no reasons ![rejection mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail.jpeg) after contacting some mentors they told as that it was a paliagrism case. We tried to defend ourselves but no one listened. They just wanted to begin the next phase and they didn't care about anything we said. At the end of the day, they kicked us out of the slack just because we expressed our opinion about what happened to us.
 Here is their response. Blind evidentless accusation with no chance of conversation.
 ![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail3.jpeg)

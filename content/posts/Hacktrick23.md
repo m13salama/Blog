@@ -31,8 +31,8 @@ So intuitively your aim was to rescue the largest number of children in the leas
 You can make many approaches to this problem like RL and Informed search, we will talk about our approach later.  
 [for the official documentation here.](https://github.com/HackTrick23/HackTrick23)
 # Riddles
-Let's talk about the riddles firstly, there was 4 types of riddles each has a different weight (captcha=10, cipher=20, server=30, PCAP=40) To be honest the riddles difficulity level was disappointing. At our preperation for the hackathon we expected more than that.  
-In the next few lines, I will show snippets of code for out team "code of duty" and our friends team "respectively" you will know the reason for that in the DRAMA part stay tuned.  
+Let's talk about the riddles firstly, there were 4 types of riddles each has a different weight (captcha=10, cipher=20, server=30, PCAP=40) To be honest the riddles' difficulty level was disappointing. In our preparation for the hackathon, we expected more than that.  
+In the next few lines, I will show snippets of code for our team -"code of duty"- and our friends' team -"respectively"- you will know the reason for that in the DRAMA part stay tuned.  
 ## Captcha
 You are given an amazon captcha in the form of 2D list and the target is to return the text inside it.  
 Solving it literrally took from us 2 lines of code using easyOCR open source library which depends on pytorch. An easier library was amazon captcha and it needs 2 lines of code too.

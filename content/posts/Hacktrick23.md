@@ -241,10 +241,10 @@ they didn't say anything about plagiarism in the documentation or in the brief v
    ![The rules](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/pliagrism.jpeg)
     - the tiebreaker was by the first submission so saying that plagiarism is based on these silly rules doesn't make sense.
 ## Stanford MOSS tool checking:
-To make sure that we didn't make any plagiarism we checked the two codes by ourselves using MOSS which is a tool provided by Standford to check plagiarism for programming languages and as we expected we got similarity in the base code only (should we account for it??) 
-[Moss](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/MOss.jpeg)
+To make sure that we didn't make any plagiarism we checked the two codes by ourselves using MOSS which is a tool provided by Standford to check plagiarism for programming languages [more about it](https://theory.stanford.edu/~aiken/moss/)and as we expected we got similarity in the base code only (should we account for it??) 
+![Moss](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/MOss.jpeg)
 ## Slack Kicking off:
-That was the post for why we were kicked off, and that make us wonder "what is success for them?". Is that making a great show for opening and closing, or taking awesome photos and presenting weak content in the challenge itself?[the post](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/slack.jpeg)
+That was the post for why we were kicked off, and that make us wonder "what is success for them?". Is that making a great show for opening and closing, or taking awesome photos and presenting weak content in the challenge itself?![the post](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/slack.jpeg)
 ## conclusion:
 As a summary we made a great performance at this hackathon and gave a lot of effort but, as a result, we got disqualified just because we got too close scores without any strong evidence and without any reasonable clarification, Thanks HackTrick for that awful experience.
 ## Shout Out:

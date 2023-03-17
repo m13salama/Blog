@@ -34,8 +34,8 @@ You can make many approaches to this problem like RL and Informed search, we wil
 Let's talk about the riddles firstly, there were 4 types of riddles each has a different weight (captcha=10, cipher=20, server=30, PCAP=40) To be honest the riddles' difficulty level was disappointing. In our preparation for the hackathon, we expected more than that.  
 In the next few lines, I will show snippets of code for our team -"code of duty"- and our friends' team -"respectively"- you will know the reason for that in the DRAMA part stay tuned.  
 ## Captcha
-You are given an amazon captcha in the form of 2D list and the target is to return the text inside it.  
-Solving it literrally took from us 2 lines of code using easyOCR open source library which depends on pytorch. An easier library was amazon captcha and it needs 2 lines of code too.
+You are given an amazon captcha in the form of a 2D list and the target is to return the text inside it.  
+Solving it took us 2 lines of code using the easyOCR open-source library which depends on PyTorch. An easier library was amazon captcha and it needs 2 lines of code too.
 ### code of duty approach:
 ```py
 def captcha_solver(question):
@@ -55,10 +55,10 @@ def captcha_solver(question):
     return solution
 ```
 ## Cipher
-You are given message which was altered after it was ciphered and you need to return the original message.  
-if you just noticed the it was altered just by encoding it base64 you are done with i. Post decoding, it gives you the nessage in binary format with the shift and you can solve it with classical Caesar cipher.
+You are given a message which was altered after it was ciphered and you need to return the original message.  
+if you just noticed that it was altered just by encoding it base64 you are done with i. Post decoding, it gives you the message in binary format with the shift and you can solve it with classical Caesar cipher.
 ### code of duty approach:
-Post decoding, we shift using ord() and chr() built-in functions according to shift recieved. That takes place pper character after we convert the binary formatted message to 7-bit ascii.
+Post decoding, we shift using ord() and chr() built-in functions according to the shift received. That takes place per character after we convert the binary formatted message to 7-bit ASCII.
 ```py
 def cipher_solver(question):
     text = addpadding(question)
@@ -97,10 +97,10 @@ def cipher_solver(question):
     return solution
 ```
 ## Server
-Honstly that problem took from us much time than it deserves.
-You are given a jwt token which was signed by a private key. Your task is to alter the message and send it to the server with a valid signature. The vulnerability here is that the header contains the public key. So, the solution was simply through out this public key. Change what you need in the token and sign it with any private key and send with the header your public key and make sure you have got the correct encodings.
+Honestly, that problem took us much more time than it deserves.
+You are given a jwt token which was signed by a private key. Your task is to alter the message and send it to the server with a valid signature. The vulnerability here is that the header contains the public key. So, the solution was simply through this public key. Change what you need in the token and sign it with any private key and send it with the header of your public key and make sure you have got the correct encodings.
 ### code of duty approach:
-The public and privates keys were generated previously and loaded from a file.
+The public and private keys were generated previously and loaded from a file.
 ```py
 def server_solver(question):
     decoded_payload = jwt.decode(question, options={"verify_signature": False})
@@ -146,7 +146,7 @@ def server_solver(question):
     return new_token
 ```
 ## PCAP
-Giving a pcap file, and you know that the server was DNS exfilterated from a specific IP you need to get what information was leaked.
+Giving a pcap file, and you know that the server was DNS exfiltrated from a specific IP you need to get what information was leaked.
 Just filter the packets with the IP again, decode the subdomains with base64 and that's it.
 ### code of duty approach:
 ```py
@@ -208,44 +208,44 @@ def pcap_solver(question):
     return solution
 ```
 # Maze Solver
-As i mentioned before the maze was 10*10 you need to enter and rescue as many children as you can then exit in least number of steps. You got 5 submissions.
+As I mentioned before the maze was 10*10 you need to enter and rescue as many children as you can and then exit in the least number of steps. You got 5 submissions.
 We worked on a combining algorithm between RL and heuristics and managed to build 2 models working very well and got 1st place with them in 2 submissions and at the end of the hackathon, we got 6th place. Our friends on the other hand worked with DFS with heuristics and did a great job too and got 5th place.
 [to see the full code of the two teams here.](...........................................)  
-To be there was a big problem with the maze that it didn't change through the submissions so it was easy for all the teams to follow up the top teams on the leaderboard and inspire the solution from their results.
-That's exactly what happened in the end when the teams realized that rescuing 2 children only and leaving maze right on minimum allowed number of steps (50) would give you a great score. So we began to make our model more greedy and managed to rescue 2 children in 50 steps which is the optimal greedy solution and our friends realized that trick too and managed to get that optimal greedy solution.
-It was great work from both of us and we enjoyed optimaizing our code and being greedy.
+To be there was a big problem with the maze that it didn't change through the submissions so it was easy for all the teams to follow up with the top teams on the leaderboard and inspire the solution from their results.
+That's exactly what happened in the end when the teams realized that rescuing 2 children only and leaving the maze right on the minimum allowed number of steps (50) would give you a great score. So we began to make our model more greedy and managed to rescue 2 children in 50 steps which is the optimal greedy solution and our friends realized that trick too and managed to get that optimal greedy solution.
+It was great work from both of us and we enjoyed optimizing our code and being greedy.
 We sure wouldn't have done that if the maze was properly designed so that the best score you can get is by solving all riddles and reaching the end in minimal steps. But, the poor placement of the children made it easy for us to exploit that to uplift our score and gain more ground in the leaderboard.
-Let alone the fact that this wouldn't have happened if the leader board only shows the final score of each team. In fact, it is allowed to see each team's submission full information including number of steps in maze, whether they reached end or not, which riddles did they solve and runtime of each riddle. 
-So, for sure you can easily guess the approach of the team from all this information and make a simillar approach.
+Let alone the fact that this wouldn't have happened if the leaderboard only shows the final score of each team. In fact, it is allowed to see each team's submission of full information including the number of steps in the maze, whether they reached the end or not, which riddles did they solve, and the runtime of each riddle. 
+So, for sure you can easily guess the approach of the team from all this information and make a similar approach.
 
 
 # THE DRAMA
-Ok, I think you got bored but here is some thrilling actions happened in the end.
+Ok, I think you got bored but here are some thrilling actions that happened in the end.
 
 ## Hackathon workflow:
-the hackathon openning was on Friday 10th March. It was a nice day. Very delicious food (the most thing i enjoyed). The hackathon has officially begun at the opening. we didn't do much of work on Friday and Saturday. We began woking starting from Sunday. We worked very hard and made our first submission on Tuesday at 6 AM before our friends. We didn't get much score (7) but it was just a trial. Our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps ![our first submission](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/first.png) but we didn't keep it for long then we worked on some optimization (literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
-our friends on the other side got some optimization too managed to scroll up in the leader board and with their 4th submision finally they made a remontada on us and got 5th place but they deserved it. ![final leaderBoard](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/final.jpeg)
+the hackathon opening was on Friday 10th March. It was a nice day. Very delicious food (the most thing i enjoyed). The hackathon has officially begun at the opening. we didn't do much work on Friday and Saturday. We began working starting from Sunday. We worked very hard and made our first submission on Tuesday at 6 AM before our friends. We didn't get much score (of 7) but it was just a trial. Our friends submitted after us and they didn't do very well too but with the second submission for us we got first place with 149 steps![our first submission](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/first.png) but we didn't keep it for long then we worked on some optimization (literally this submission was through a different model) and made our third submission and took the first place again with 52 steps only but we were greedy and rescued only 2 children and the 2 left submissions were a foregone conclusion.
+our friends on the other side got some optimization too and managed to scroll up in the leaderboard and with their 4th submission finally, they made a remontada on us and got 5th place but they deserved it. ![final leaderBoard](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/final.jpeg)
 
-## Wednsday surprise:
-we all slept on Tuesday having no ideas except of planning the next phase and reserving train tickets from Alexandria to Cairo to attend the closing but, we, the 2 teams, got a rejection mail with no reasons ![rejection mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail.jpeg) after contacting some mentors they told as that it was a paliagrism case. We tried to defend ourselves but no one listened. They just wanted to begin the next phase and they didn't care about anything we said. At the end of the day, they kicked us out of the slack just because we expressed our opinion about what happened to us.
-Here is their response. Blind evidentless accusation with no chance of conversation.
+## Wednesday surprise:
+we all slept on Tuesday having no ideas except of planning the next phase and reserving train tickets from Alexandria to Cairo to attend the closing but, we, the 2 teams, got a rejection mail with no reason![rejection mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail.jpeg) after contacting some mentors they told as that it was a plagiarism case. We tried to defend ourselves but no one listened. They just wanted to begin the next phase and they didn't care about anything we said. At the end of the day, they kicked us out of the slack just because we expressed our opinion about what happened to us.
+Here is their response. Blind evident-less accusation with no chance of conversation.
 ![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail3.jpeg)
 ![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail2.jpeg)
 ![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/WhatsApp%20Image%202023-03-17%20at%202.41.31%20AM.jpeg)
 ## plagiarism rules:
-they didn't say anything about plagiarism in the documntation or in the brief video except this phrase "any plagiarism will be detected and penalized" but let us see what they have told us to shut us up:
+they didn't say anything about plagiarism in the documentation or in the brief video except this phrase "any plagiarism will be detected and penalized" but let us see what they have told us to shut us up:
 - plagiarism is based on multiple aspects:
-    - the total score of the leaderboard submission and its details (which was the first time on my life to hear about this invented rule).
-    - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions were executed locally).
+    - the total score of the leaderboard submission and its details (which was the first time in my life to hear about this invented rule).
+    - time taken to solve different riddles (which differs from one submission to another on the same machine XD, taking into consideration that submissions were executed locally).
     - time also depend on your network latency as you do API request to amazon servers.
    ![The rules](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/pliagrism.jpeg)
-    - the tie breaker actually was by the first submission so saying that plagiarism is based on these silly rules doesn't make sense.
+    - the tiebreaker was by the first submission so saying that plagiarism is based on these silly rules doesn't make sense.
 ## Stanford MOSS tool checking:
-To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??) 
+To make sure that we didn't make any plagiarism we checked the two codes by ourselves using MOSS which is a tool provided by Standford to check plagiarism for programming languages and as we expected we got similarity in the base code only (should we account for it??) 
 [Moss](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/MOss.jpeg)
 ## Slack Kicking off:
-That was the post for why we were kicked off, and that's make us wonder "what is success for them?". Is that making a great show for openning and closing, or taking awesome photos and presenting a weak content in the challenge itself![the post](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/slack.jpeg)
+That was the post for why we were kicked off, and that make us wonder "what is success for them?". Is that making a great show for opening and closing, or taking awesome photos and presenting weak content in the challenge itself?[the post](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/slack.jpeg)
 ## conclusion:
-As a summary we made a great perfomance at this hackathon and giving it a lot of efforts but, as a result we got disqualified just because we got too close scores without any strong evidence and without a any reasonable clarification, Thanks HackTrick for that awful experience.
+As a summary we made a great performance at this hackathon and gave a lot of effort but, as a result, we got disqualified just because we got too close scores without any strong evidence and without any reasonable clarification, Thanks HackTrick for that awful experience.
 ## Shout Out:
-Thanks for all my team members [mohamed aiad](https://github.com/mohamedaiad), [mohamed mostafa](https://github.com/mohamed-euler), [yousef ahmed](https://github.com/usefSaeed), [michael samir](https://github.com/MichaelSamir75) and [ahmed abdallah](https://github.com/ahme2001), and thanks for all my friends from **"RESPECTIVELY"** [Abd-elrahman Bahaa](https://github.com/AbdelrahmanMosly), [Abd-elrahman El-sayed](https://github.com/Mento79), [Ahmed Adel](https://github.com/Deffo0), [Yousef bazina](https://github.com/Bazina), [Omar Metmawwah](), [Mohamed Kotb](https://github.com/MuhammadElkotb) I am really so proud of our work and what we have achieved regardless of the endings and I am really happy of of supporting each others we are much more than a family, not just compititors or friends.
+Thanks to all my team members [mohamed aiad](https://github.com/mohamedaiad), [mohamed mostafa](https://github.com/mohamed-euler), [yousef ahmed](https://github.com/usefSaeed), [michael samir](https://github.com/MichaelSamir75) and [ahmed abdallah](https://github.com/ahme2001), and thanks for all my friends from **"RESPECTIVELY"** [Abd-elrahman Bahaa](https://github.com/AbdelrahmanMosly), [Abd-elrahman El-sayed](https://github.com/Mento79), [Ahmed Adel](https://github.com/Deffo0), [Yousef bazina](https://github.com/Bazina), [Omar Metmawwah](), [Mohamed Kotb](https://github.com/MuhammadElkotb) I am really so proud of our work and what we have achieved regardless of the endings and I am really happy of supporting each other we are much more than a family, not just competitors or friends.

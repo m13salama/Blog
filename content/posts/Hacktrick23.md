@@ -37,6 +37,7 @@ in the next few lines i will show snippets of code for out team "code of duty" a
 You are given an amazon captcha in the form of 2d list and the target is to return the text inside it.  
 solving it literrally took from us 2 lines of code using easyOCR open library which depends on pytorch an easier library was amazon captcha and it needs 2 lines of code too.
 ### code of duty approach:
+<!--
 ```py
 def captcha_solver(question):
     reader = easyocr.Reader(['en'])
@@ -54,11 +55,13 @@ def captcha_solver(question):
     solution = captcha.solve()
     return solution
 ```
+-->
 ## Cipher
 You are given message which was altered after it was ciphered and you need to return the original message.  
 if you just noticed the it was altered just by encoding it base64 you are done with it, after decoding it it gives you the nessage in binary with the shift and you can solve it with normal Caesar cipher.
 ### code of duty approach:
 we have a class to implement addpadding, getMessage functions
+<!--
 ```py
 def cipher_solver(question):
     text = addpadding(question)
@@ -96,11 +99,13 @@ def cipher_solver(question):
 
     return solution
 ```
+-->
 ## Server
 Ok honstly that problem took from us a lot much than it deserve.
 you are given a jwt token which was signed with a private key and you to verify it you must decode that sign by a public key, the trick was that the public key used for vervication wwas send in he header of the token, so the solution wan simply through out this public key change what you need in the token and sign it with any private key and send with the header your public key.
 ### code of duty approach:
 the public and privates keys were generated previously and loaded from a file.
+<!--
 ```py
 def server_solver(question):
     decoded_payload = jwt.decode(question, options={"verify_signature": False})
@@ -145,10 +150,12 @@ def server_solver(question):
 
     return new_token
 ```
+-->
 ## PCAP
 giving a pcap file, and you know that the server was DNS exfilterated from a specific IP you need to get what information was leaked.
 just filter the packets with the IP again decode the subdomains with base64 and that's it.
 ### code of duty approach:
+<!--
 ```py
 def pcap_solver(question):
     sol = {}
@@ -207,6 +214,7 @@ def pcap_solver(question):
         solution += data[i]
     return solution
 ```
+-->
 # Maze Solver
 As i mentioned before the maze was 10*10 you need to enter and rescue as many children as you can then exit in least number of steps and we have 5 submissions.
 we worked on a combining algorithm between RL and heuristics and managed to build 2 models working very well and got 1st place with them in 2 submissions and the end of the hackathon we got 6th place, our friends on the other hand worked with DFS with heuristics and did a great job too and got 5th place at the end.

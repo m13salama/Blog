@@ -232,9 +232,7 @@ they didn't say anything about plagiarism in the documntation or in the brief vi
     - time taken to solve different riddles (which differs from submission to another on the same machine XD, take into consideration that submissions were executed locally).![The rules](pliagrism.jpeg)
 ## Stanford MOSS tool checking:
 To make sure that we didn't make any paliagrism we checked the two codes by ourselves using tool of MOSS and as we expected we got similarity at the base code only (should we account it??) 
-{{< figure src="MOss.jpeg" >}}
-
-<img src="MOss.jpeg" alt="MOSS checking" class="my-image">
+<img src="/images/MOss.jpeg" alt="MOSS checking" class="my-image">
 <style>
 .my-image {
   max-width: 100%;

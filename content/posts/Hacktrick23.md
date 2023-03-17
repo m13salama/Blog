@@ -210,7 +210,7 @@ def pcap_solver(question):
 # Maze Solver
 As I mentioned before the maze was 10*10 you need to enter and rescue as many children as you can and then exit in the least number of steps. You got 5 submissions.
 We worked on a combining algorithm between RL and heuristics and managed to build 2 models working very well and got 1st place with them in 2 submissions and at the end of the hackathon, we got 6th place. Our friends on the other hand worked with DFS with heuristics and did a great job too and got 5th place.
-[to see the full code of the two teams here.](...........................................)  
+[to see the full code of the two teams here.](https://gist.github.com/m13salama/aa0df8c25fd65772874811adf43f1412)  
 To be there was a big problem with the maze that it didn't change through the submissions so it was easy for all the teams to follow up with the top teams on the leaderboard and inspire the solution from their results.
 That's exactly what happened in the end when the teams realized that rescuing 2 children only and leaving the maze right on the minimum allowed number of steps (50) would give you a great score. So we began to make our model more greedy and managed to rescue 2 children in 50 steps which is the optimal greedy solution and our friends realized that trick too and managed to get that optimal greedy solution.
 It was great work from both of us and we enjoyed optimizing our code and being greedy.

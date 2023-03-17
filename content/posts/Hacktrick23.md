@@ -6,21 +6,21 @@ date: 2023-03-16T20:44:42+02:00
 
 
 # Table of Contents
-- [Welcome](#welcome)
-- [Riddles](#riddles)
-- - [Captcha](#captcha)
-- - [Cipher](#cipher)
-- - [Server](#server)
-- - [pcap](#pcap)
-- [Maze Solver](#maze-solver)
-- [THE DRAMA](#the-drama)
-- - [Hackathon workflow](#hackathon-workflow)
-- - [Wednesday surprise](#wednsday-surprise)
-- - [plagiarism rules](#plagiarism-rules)
-- - [Standford moss tool checking](#stanford-moss-tool-checking)
-- - [Slack kicking off](#slack-kicking-off)
-- [Conclusion](#conclusion)
-- [Shout out](#shout-out)
+* [Welcome](#welcome)
+* [Riddles](#riddles)
+    * [Captcha](#captcha)
+    * [Cipher](#cipher)
+    * [Server](#server)
+    * [pcap](#pcap)
+* [Maze Solver](#maze-solver)
+* [THE DRAMA](#the-drama)
+    * [Hackathon workflow](#hackathon-workflow)
+    * [Wednesday surprise](#wednesday-surprise)
+    * [plagiarism rules](#plagiarism-rules)
+    * [Standford moss tool checking](#stanford-moss-tool-checking)
+    * [Slack kicking off](#slack-kicking-off)
+* [Conclusion](#conclusion)
+* [Shout out](#shout-out)
 
 # Welcome
 That's our short journey with Hacktrick this year be ready for some useful information and a lot of drama.

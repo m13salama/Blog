@@ -232,7 +232,10 @@ our friends on the other side got some optimization too managed to scroll up in 
 
 ## Wednsday surprise:
 we all slept on tuesday having no ideas except of planning to the next phase and reserving train tickets from alexandria to cairo to attend the closing but we the 2 teams got a rejection mail with no reasons ![rejection mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail.jpeg) after contacting some mentors they told as that it was a paliagrism case we tried to defend ourselves a lot but no one hears they just wanted to begin the next phase and they didn't care about us and at the end of the day they kicked us out of the slack just because we expressed our opinions.
-
+here is their response just accused us and didn't give us a chance to defend ourselves
+![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail3.jpeg)
+![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/mail2.jpeg)
+![response mail](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/WhatsApp%20Image%202023-03-17%20at%202.41.31%20AM.jpeg)
 ## plagiarism rules:
 they didn't say anything about plagiarism in the documntation or in the brief video except this phrase "any plagiarism will be detected and penalized" but let us see what they have told us to shut us up:
 - plagiarism is based on multiple aspects:

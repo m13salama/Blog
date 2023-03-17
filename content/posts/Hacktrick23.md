@@ -241,7 +241,7 @@ they didn't say anything about plagiarism in the documentation or in the brief v
    ![The rules](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/pliagrism.jpeg)
     - the tiebreaker was by the first submission so saying that plagiarism is based on these silly rules doesn't make sense.
 ## Stanford MOSS tool checking:
-To make sure that we didn't make any plagiarism we checked the two codes by ourselves using MOSS which is a tool provided by Standford to check plagiarism for programming languages [more about it](https://theory.stanford.edu/~aiken/moss/)and as we expected we got similarity in the base code only (should we account for it??) 
+To make sure that we didn't make any plagiarism we checked the two codes by ourselves using MOSS which is a tool provided by Standford to check plagiarism for programming languages [more about it](https://theory.stanford.edu/~aiken/moss/) and as we expected we got similarity in the base code only (should we account for it??) 
 ![Moss](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/MOss.jpeg)
 ## Slack Kicking off:
 That was the post for why we were kicked off, and that make us wonder "what is success for them?". Is that making a great show for opening and closing, or taking awesome photos and presenting weak content in the challenge itself?![the post](https://raw.githubusercontent.com/m13salama/blog/main/content/posts/slack.jpeg)

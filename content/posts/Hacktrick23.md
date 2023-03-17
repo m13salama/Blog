@@ -24,11 +24,11 @@ date: 2023-03-16T20:44:42+02:00
 
 # Welcome
 That's our short journey with Hacktrick this year be ready for some useful information and a lot of drama.
-First what is hacktrick?
+First, what is hacktrick?
 Hacktrick is a hackathon organized by Dell that took place in Egypt. The hackathon aimed to bring together young innovators and developers to work on real-world challenges and create innovative solutions using technology.  
-This year the hackathon was about AI, cybercecurity and optimization, the problem in short is that you enter a maze (10*10) at the top left corner and the exit is at bottom right corner inside the maze there are 4 children you want to rescue, to rescue a child you need to solve a riddle and the score depends on the number of children you rescued, how many steps you took, and the time to solve the riddles and there is a rule that if you didn't exit at the bottom right corner you will get only 80% of the score finalyy you have 5 submissions and your best one is taken into account.
-So intintuitively your aim was to rescue the largest number of children in the least number of steps whilst solving the riddles in minimal time.
-You can make many approaches for this problem like RL and Informed search, we will talk about our approach later.  
+This year the hackathon was about AI, cybersecurity, and optimization, the problem, in short, is that you enter a maze (10*10) at the top left corner and the exit is at the bottom right corner inside the maze there are 4 children you want to rescue, to rescue a child you need to solve a riddle and the score depends on the number of children you rescued, how many steps you took, and the time to solve the riddles and there is a rule that if you didn't exit at the bottom right corner you will get only 80% of the score finally you have 5 submissions and your best one is taken into account.
+So intuitively your aim was to rescue the largest number of children in the least number of steps whilst solving the riddles in minimal time.
+You can make many approaches to this problem like RL and Informed search, we will talk about our approach later.  
 [for the official documentation here.](https://github.com/HackTrick23/HackTrick23)
 # Riddles
 Let's talk about the riddles firstly, there was 4 types of riddles each has a different weight (captcha=10, cipher=20, server=30, PCAP=40) To be honest the riddles difficulity level was disappointing. At our preperation for the hackathon we expected more than that.  
